@@ -9,7 +9,7 @@ public class TriangularNumber {
     public TriangularNumber(int num){
         this.num = num;
         int sum = 0;
-        for( int i = 1; i < num; i++){
+        for( int i = 1; i < num+1; i++){
             sum += i;
         }
         this.rez = sum;
